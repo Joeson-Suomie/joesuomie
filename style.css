@@ -1,0 +1,167 @@
+/* display background color black on navbar scroll */
+body{
+    background: url('');
+    font-family:  text-transform: uppercase;
+}
+.navbarScroll.navbarDark {
+    background-color: black;
+    margin-top: 0;
+}
+nav{
+    font-size: 1em;
+    -webkit-transition: font-size 0.3s;
+    transition: font-size 0.3s; 
+    padding-top: 1.5rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Montserrat' 
+}
+nav,ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #333;
+  margin-top: 0;
+}
+
+Nav.navbar-nav>li.nav-item>a.nav-link.active {
+        color: #fff;
+        background: #18BC9C;
+    }
+    nav,ul.a{
+
+        text-transform: uppercase;
+    }
+    li a:hover {
+  background-color: #056608;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('background.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 3.5rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/*Style for the typewriter*/
+.hero_title{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid whitesmoke; /* The hero_text cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 2s steps(40, end),
+      blink-caret .45s step-end infinite;
+      font-family:Montserrat;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 45% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: whitesmoke; }
+  }
+  .hero_desc {
+    font-size: 1.5rem;
+    font-family:vardana;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+/* spacing on all sections */
+/* #about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+} */
+#contact {
+    padding-bottom: 4rem;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: darkgrey;
+    text-align: center;
+}
+.footer p {
+      margin-bottom: 0;
+      background-color: black;
+      color: white;
+      height: 100px;
+      padding-top: 30px;
+    }
+    #about{
+         padding-top: 100px;
+         font-family: time new roma;
+        font-weight: bold;
+    }
+    #services{
+        padding-left: 4px;
+        padding-top: 100px;
+        font-weight: bold;
+    }
+    #portfolio{
+        background-color:;
+        padding-top: 100px;
+        font-weight: bold;
+    }
+    #contact{
+        padding-top: 100px;
+          font-weight: bold;
+    }
